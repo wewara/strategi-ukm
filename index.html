@@ -7,6 +7,9 @@
     
     <meta name="robots" content="noindex, nofollow">
 
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+
     <script src="https://cdn.tailwindcss.com"></script>
     
     <style>
@@ -28,52 +31,54 @@
 </head>
 <body class="bg-[#F9F9F8] text-[#1A1A1A] antialiased font-body-inter">
 
-    <header class="py-12">
-        <div class="max-w-4xl mx-auto px-6 flex justify-center md:justify-start font-serif-judul text-2xl tracking-tight italic">
-            STRATEGI<span class="text-blue-600">.</span>UKM
+    <header class="py-12 border-b border-gray-100 bg-white">
+        <div class="max-w-4xl mx-auto px-6 flex justify-center">
+            <img src="logo-strategiukm.svg" alt="Logo Strategi UKM" class="h-10 w-auto">
         </div>
     </header>
 
-    <main class="max-w-3xl mx-auto px-6 pb-24">
-        <section class="text-center">
-            <h1 class="font-serif-judul text-4xl md:text-6xl mb-10 leading-[1.15] text-gray-900">
+    <main class="max-w-3xl mx-auto px-6 pb-28">
+        <section class="text-center pt-16">
+            <h1 class="font-serif-judul text-4xl md:text-6xl mb-12 leading-[1.15] text-gray-950 tracking-tight">
                 Cara UKM Bertahan & Melejit di Era Digital 2026
             </h1>
             
-            <div class="aspect-video bg-black rounded-2xl shadow-2xl overflow-hidden mb-12 border-[12px] border-white shadow-blue-900/5">
+            <div class="aspect-video bg-black rounded-2xl shadow-2xl overflow-hidden mb-16 border-[16px] border-white shadow-blue-900/5">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
             </div>
 
-            <p class="text-lg md:text-xl text-gray-600 leading-relaxed mb-12 max-w-2xl mx-auto">
-                Tonton video di atas untuk memahami kerangka kerjanya, lalu unduh <span class="font-bold text-gray-950 underline decoration-blue-500 decoration-2">PDF Cheatsheet</span> di bawah ini.
+            <p class="text-lg md:text-xl text-gray-700 leading-relaxed mb-16 max-w-2xl mx-auto font-medium">
+                Tonton video di atas untuk memahami kerangka kerjanya, lalu unduh <span class="font-bold text-gray-950 underline decoration-blue-500 decoration-4 underline-offset-2">PDF Cheatsheet</span> di bawah ini.
             </p>
 
-            <div class="bg-white p-8 md:p-12 rounded-3xl border border-gray-100 shadow-2xl max-w-lg mx-auto relative">
-                <h3 class="font-serif-judul text-2xl md:text-3xl mb-8">Dapatkan PDF & Cheatsheet</h3>
+            <div class="bg-white p-8 md:p-14 rounded-3xl border border-gray-100 shadow-2xl max-w-lg mx-auto relative overflow-hidden">
+                <div class="absolute top-0 left-0 w-full h-3 bg-blue-600"></div>
                 
-                <form action="https://pos.wewara.com/subscribe" method="POST" accept-charset="utf-8" class="space-y-5 text-left">
+                <h3 class="font-serif-judul text-2xl md:text-3xl mb-10 text-gray-900 leading-snug">Dapatkan PDF & Cheatsheet</h3>
+                
+                <form action="https://pos.wewara.com/subscribe" method="POST" accept-charset="utf-8" class="space-y-6 text-left">
                     <div>
                         <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Nama Depan</label>
                         <input type="text" name="name" id="name" placeholder="Nama Anda" required
-                               class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-600 outline-none transition-all">
+                               class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-600 outline-none transition-all shadow-sm">
                     </div>
 
                     <div>
                         <label class="block text-sm font-bold text-gray-700 mb-2 ml-1">Alamat Email</label>
                         <input type="email" name="email" id="email" placeholder="email@bisnisanda.com" required
-                               class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-600 outline-none transition-all">
+                               class="w-full px-5 py-4 rounded-xl border border-gray-200 focus:ring-4 focus:ring-blue-100 focus:border-blue-600 outline-none transition-all shadow-sm">
                     </div>
 
                     <input type="hidden" name="list" value="ISI_DENGAN_LIST_ID_ANDA">
                     
                     <button type="submit" name="submit" id="submit"
-                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 rounded-xl text-xl transition-all shadow-lg shadow-blue-200 active:scale-[0.98]">
+                            class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-5 rounded-xl text-xl transition-all shadow-xl shadow-blue-200 active:scale-[0.98]">
                         Kirim Ke Email Saya &rarr;
                     </button>
                 </form>
                 
-                <p class="mt-6 text-xs text-gray-400 italic">
-                    Data Anda aman. Kami hanya mengirimkan konten strategi UKM.
+                <p class="mt-8 text-xs text-gray-400 italic font-medium leading-relaxed">
+                    Data Anda aman. Kami hanya mengirimkan konten strategi UKM yang relevan.
                 </p>
             </div>
         </section>
